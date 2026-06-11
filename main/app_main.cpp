@@ -54,9 +54,9 @@ constexpr uint8_t kShtc3Address = 0x70;
 constexpr uint16_t kShtc3Wakeup = 0x3517;
 constexpr uint16_t kShtc3Sleep = 0xB098;
 constexpr uint16_t kShtc3MeasureTFirstNormal = 0x7866;
-constexpr char kWifiSsid[] = "Evans";
-constexpr char kWifiPassword[] = "Evans12345678";
-constexpr char kServerHost[] = "192.168.137.1";
+constexpr char kWifiSsid[] = "<your-ssid>";
+constexpr char kWifiPassword[] = "<your-password>";
+constexpr char kServerHost[] = "<your-server-ip>";
 constexpr uint16_t kServerPort = 8766;
 
 EventGroupHandle_t s_wifi_event_group;

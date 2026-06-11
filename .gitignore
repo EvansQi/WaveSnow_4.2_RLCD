@@ -1,0 +1,11 @@
+build/
+managed_components/
+__pycache__/
+*.pyc
+sdkconfig
+usage.json
+usage.auto.json
+*.log
+build.py
+secrets.yaml
+.vscode/

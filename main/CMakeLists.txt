@@ -1,0 +1,22 @@
+idf_component_register(
+    SRCS
+        "app_main.cpp"
+        "rlcd_st7305.cpp"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        esp_adc
+        esp_driver_gpio
+        esp_driver_i2c
+        esp_driver_spi
+        esp_driver_usb_serial_jtag
+        esp_event
+        esp_netif
+        esp_psram
+        esp_timer
+        esp_wifi
+        freertos
+        log
+        lwip
+        nvs_flash
+)
